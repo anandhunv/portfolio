@@ -5,23 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anandhu n v</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/88188fbf65.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div id="header">
         <div class="container">
             <nav>
                 <img src="images/logo.png" alt="" class="logo">
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Services</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Contact</a></li>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
 
                 </ul>
+                <i class="fa-solid fa-bars " onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>MERN STACK DEVELOPER</p>
+                <p><span style="color: green;">M</span><span style="color: orangered;">E</span><span style="color: rgb(0, 183, 255);">R</span><span style="color: green;">N</span> STACK DEVELOPER</p>
                 <H1>Hi, I'm <span>Anandhu N V </span><br>From India</H1>
             </div>
         </div>
@@ -31,54 +36,242 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="images/user.png" alt="">
+                    <img src="images/user.jpg" alt="">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About me</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis distinctio perferendis expedita, fuga quo exercitationem. Iste praesentium sapiente alias tenetur maiores suscipit dolor odit accusamus. Corporis recusandae perspiciatis quasi necessitatibus!
-                        orem ipsum dolor sit amet consectetur, adipisicing elit. Vero inventore ipsa laborum optio expedita neque, ipsam facilis blanditiis praesentium doloremque iure quia dolorem! Explicabo voluptates nulla voluptatibus optio temporibus nam.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et rem sequi saepe sint voluptatum quod reprehenderit sit ipsum temporibus dolorem minus ab sunt doloribus, laborum cumque ipsam explicabo hic. Molestiae?
-                    Doloribus, fugiat blanditiis fugit incidunt esse sint. Nobis voluptas consequuntur totam cum nesciunt magnam officia enim quis quisquam quo facilis quos vitae soluta, laudantium repellat eveniet porro tempore ab iure.
-                    Pariatur possimus at dolorem aut, unde deleniti nisi mollitia nihil alias ipsam ex temporibus rerum ducimus neque debitis facere eum dicta adipisci eaque impedit. Molestias aut qui quibusdam perferendis commodi!
-                    Sint commodi quibusdam aut vitae delectus eos saepe quod, odit qui! Distinctio, vero, nobis minus nulla quaerat ab dolor a dolores rerum alias consequatur nisi repudiandae? Tenetur quisquam aut quod.
-                    </p>
+                    <p>Highly motivated and enthusiastic student with an
+                        admirable attitude. Highlight qualities include great
+                        leadership, adaptability and sincerity. Passionate
+                        about programming and coding, having well-
+                        developed problem solving and critical thinking skills.
+                        Great communication proficiency with remarkable
+                        language</p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('skills')">Personal</p>
                         <p class="tab-links" onclick="opentab('experience')">Experience</p>
                         <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                        
 
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
-                            <li><span>web development</span><br>Designing web/app interfaces</li>
-                            <li><span>app deveopemnt</span><br>Designing web/app interfaces</li>
+                            <li><span>Name</span><br>Anandhu N v</li>
+                            <li><span>Date of birth</span><br>October 02,2001</li>
+                            <li><span>Adress</span><br>Thrissur Kerala India</li>
 
                         </ul>
                     </div>
-                    <div class="tab-contents" id="experience">
+                    <div class="tab-contents" id="experience"> 
                         <ul>
-                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
-                            <li><span>web development</span><br>Designing web/app interfaces</li>
-                            <li><span>app deveopemnt</span><br>Designing web/app interfaces</li>
+                            <li><span>SDFSDFD</span><br>Designing web/app interfaces</li>
+                            <li><span>DSVSDV</span><br>Designing web/app interfaces</li>
+                            <li><span>CVSDCVSD</span><br>Designing web/app interfaces</li>
 
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing web/app interfaces</li>
-                            <li><span>web development</span><br>Designing web/app interfaces</li>
-                            <li><span>app deveopemnt</span><br>Designing web/app interfaces</li>
+                            <li><span>PLUSTWO</span><br>Designing web/app interfaces</li>
+                            <li><span>BTECH</span><br>Designing web/app interfaces</li>
+                            <li><span>SSLC</span><br>Designing web/app interfaces</li>
 
                         </ul>
                     </div>
+                    
+                    
                 </div>
 
             </div>
         </div>
     </div>
-    
 
+
+
+
+     <!-- skills page -->
+     <section class = "skills ">
+        <div class="container">
+        <div class = "title">
+            <h1 class="sub-title">Technical Skills</h1>
+
+          <div>
+          </div>
+        </div>
+  
+  
+        <div class = "rows">
+          <div class = "item">
+            <div class = "item-text">
+              <span>Javascript</span>
+              <span class = "w-90">90%</span>
+            </div>
+            <div class = "progress">
+              <div class = "progress-bar w-90"></div>
+            </div>
+          </div>
+  
+          <div class = "item">
+            <div class = "item-text">
+              <span>HTML</span>
+              <span class = "w-75">75%</span>
+            </div>
+            <div class = "progress">
+              <div class = "progress-bar w-75"></div>
+            </div>
+          </div>
+  
+          <div class = "item">
+            <div class = "item-text">
+              <span>CSS</span>
+              <span class = "w-85">85%</span>
+            </div>
+            <div class = "progress">
+              <div class = "progress-bar w-85"></div>
+            </div>
+          </div>
+  
+          <div class = "item">
+            <div class = "item-text">
+              <span>BOOTSTRAP</span>
+              <span class = "w-80">80%</span>
+            </div>
+            <div class = "progress">
+              <div class = "progress-bar w-80"></div>
+            </div>
+          </div>
+  
+          <div class = "item">
+            <div class = "item-text">
+              <span>GIT HUB</span>
+              <span class = "w-60">60%</span>
+            </div>
+            <div class = "progress">
+              <div class = "progress-bar w-60"></div>
+            </div>
+          </div>
+  
+          <div class = "item">
+            <div class = "item-text">
+              <span>PHP</span>
+              <span class = "w-68">68%</span>
+            </div>
+            <div class = "progress">
+              <div class = "progress-bar w-68"></div>
+            </div>
+          </div>
+        </div>
+    </div>
+      </section>
+      <!-- end of skills page -->
+  
+    <!-- --------------------------services----------------------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1>
+            <div class="services-list">
+
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum totam esse iste aliquid, consectetur aut nemo obcaecati quod voluptatem minus, exercitationem quam praesentium tempore maxime blanditiis in aspernatur doloribus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>Javascript</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum totam esse iste aliquid, consectetur aut nemo obcaecati quod voluptatem minus, exercitationem quam praesentium tempore maxime blanditiis in aspernatur doloribus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>React</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet dolorum totam esse iste aliquid, consectetur aut nemo obcaecati quod voluptatem minus, exercitationem quam praesentium tempore maxime blanditiis in aspernatur doloribus.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+    <!-- ----------------portfolio---------------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, sit!</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App Media App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, sit!</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="">
+                    <div class="layer">
+                        <h3>REACT App</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, sit!</p>
+                        <a href=""><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#" class="btn">See More</a>
+
+        </div>
+    </div>
+    <!-- ---------------------------contact---------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>anandhuvasudevannv18@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>9656006648</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/anandhu-nv"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/anandhunv"><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+
+
+            </div>
+        </div> 
+
+            <div class="copyright">
+                <p>Thanks for visting <i class="fa-solid fa-heart"></i><br> Copyright &copy;Anandhu N V</p> </div>
+    </div>
 
     <script>
 
@@ -87,11 +280,48 @@
         function opentab(tabname){
             for(tablink of tablinks){
                 tablink.classList.remove("active-link");
-            }
+            }  
             for(tabcontent of tabcontents){
-                tablink.classList.remove("active-tab");
+                tabcontent.classList.remove("active-tab");
             }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
         }
     </script>
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+
+ 
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwrXaF1abwwqMFAa4N2xe6wMdCw7bgciXbLehIJ8uOT_KboGnxAKXrwuz1qfks-xncA/exec'
+        const form = document.forms['submit-to-google-sheet'];
+        const msg=document.getElementById("msg");
+
+
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Your information has been duly submitted !"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+    
 </body>
 </html>
